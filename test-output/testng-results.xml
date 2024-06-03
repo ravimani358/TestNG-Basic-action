@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-01T23:36:03 IST" name="TC" finished-at="2024-01-01T23:36:10 IST" duration-ms="7004">
+    <groups>
+      <group name="sanity">
+        <method signature="Testcase.Testcase_01(java.lang.String,java.lang.String)[pri:1, instance:Testcase@2d901eb0]" name="Testcase_01" class="Testcase"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-01-01T23:36:03 IST" name="first_test_clase" finished-at="2024-01-01T23:36:10 IST" duration-ms="7004">
+      <class name="Testcase">
+        <test-method is-config="true" signature="Launch_Browser()[pri:0, instance:Testcase@2d901eb0]" started-at="2024-01-01T23:35:58 IST" name="Launch_Browser" finished-at="2024-01-01T23:36:03 IST" duration-ms="4884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_Browser -->
+        <test-method signature="Testcase_01(java.lang.String,java.lang.String)[pri:1, instance:Testcase@2d901eb0]" started-at="2024-01-01T23:36:03 IST" name="Testcase_01" finished-at="2024-01-01T23:36:10 IST" duration-ms="6941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DEL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BLR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_01 -->
+        <test-method is-config="true" signature="close_Browser()[pri:0, instance:Testcase@2d901eb0]" started-at="2024-01-01T23:36:10 IST" name="close_Browser" finished-at="2024-01-01T23:36:10 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+      </class> <!-- Testcase -->
+    </test> <!-- first_test_clase -->
+  </suite> <!-- TC -->
+</testng-results>

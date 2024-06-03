@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="sanity" thread-count="5" verbose="5" >
+	<test name="first_test_clase">
+		<parameter name="from_city" value="DEL"></parameter>
+		<parameter name="to_city" value="BLR"></parameter>
+		<classes>
+			<class name="Testcase">
+			</class>
+		</classes>
+	</test>
+</suite>
